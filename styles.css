@@ -56,6 +56,10 @@ h6{
   margin-right: auto;
   height: auto;
 }
+
+.d-block:hover{
+  transform: scale(1.02);
+}
 .carousel-control-prev-icon,.carousel-control-next-icon{
   outline: black;
   background-color:black;
@@ -67,7 +71,7 @@ h6{
  }
 
 .carousel-inner{
-  padding: 0 5% 0 5%;
+  padding: 0 5%;
 }
 p{
   padding:5% 5% 0 5%;
@@ -87,9 +91,8 @@ p.names{
   width:30%;
   height:auto;
 }
-.footer{
-  background-color: #0082e6;
-}
+
+
 ul{
   text-align: center;
   padding:10px 10px;
@@ -107,4 +110,61 @@ li a{
 }
 li a:hover{
   color:#181D31;
+}
+
+#cards{
+  padding:5% 5%;
+  text-align: center;
+}
+.card-cards{
+  padding-top:5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  height:auto;
+
+}
+.card-img-top{
+  height:auto;
+  border-bottom:2px solid black;
+  border-top:2px solid black;
+}
+.card-text{
+  text-align: center;
+  padding-top:0px;
+}
+.welcome{
+  font-weight: 800;
+  font-family: serif;
+  padding-bottom: 5px;
+}
+.welcomes{
+  font-weight: 400;
+  font-family: serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer{
+  background-color: #0082e6;
+  text-align: center;
+  margin-bottom: 0px;
+  padding:10px 5px;
+}
+.footer i{
+  padding:50px 10px 20px 10px;
+  size:50px;
+}
+
+.footer p{
+  padding:1px;
+  color:white;
+}
+.footer a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.footer a:hover{
+  color:white;
 }
