@@ -1,170 +1,189 @@
 .navbar-brand{
-  font-size: 2rem;
-  font-weight: bold;
-  color:white;
-}
-.navbar-brand:hover{
-  color:#181D31;
-}
-.navbar{
-  padding-bottom: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    color:white;
+  }
+  .navbar-brand:hover{
+    color:#181D31;
+  }
+  .navbar{
+    padding-bottom: 5px;
+  }
+  
+  .nav-link{
+    color:white;
+  }
+  .nav-link:hover{
+    color:#181D31;
+  }
+  .container-fluid{
+    padding:0% 5%;
+    background: #0082e6;
+  }
+  
+
+  h5{
+    padding:0 5%;
+    color:#181D31;
+    text-decoration: none;
+  }
+  h2,h4{
+    padding:3% 10%;
+    color:#181D31;
+    text-align: center;
+
+  }
+  ul{
+    text-align: center;
+    padding:10px 10px;
+  }
+  li{
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    padding:10px;
+  }
+  
+  li a{
+    text-decoration: none;
+    color:white;
+  }
+  li a:hover{
+    color:#181D31;
+  }
+
+  .welcome{
+    font-weight: 800;
+    font-family: serif;
+    padding-bottom: 5px;
+  }
+  .welcomes{
+    font-weight: 400;
+    font-family: serif;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+  
+  .cards-head{
+    text-align: left;
+    margin:0;
+    padding: 0 0 10px 25px;
+
 }
 
-.nav-link{
-  color:white;
-}
-.nav-link:hover{
-  color:#181D31;
-}
-.container-fluid{
-  padding:0% 5%;
-  background: #0082e6;
-}
-.content{
-  padding:0 5%;
-}
-h5{
-  padding:0 5%;
-  color:#181D31;
-  text-decoration: none;
-}
-h2,h4{
-  padding:3% 10%;
-  color:#181D31;
-  text-align: center;
-}
-h4{
-  padding:0 10% 1% 10%;
-  color:#181D31;
-  text-align: center;
+  
+  .nav-item a{
+    color: #fff;
+    text-decoration: none;
+    padding-left:20px;
+  }
+
+
+.card-carousel{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
 
-h6{
-  font-size: 1em;
+.carousel-item{
+    padding: 10px 20px;
+    height: auto;
 }
-.content-links{
-  color:#181D31;
-  text-decoration: none;
-  text-align: left;
-}
-.d-block
-{
-  padding:5% 0;
-  height: 300px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
+.card{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
 }
 
-.d-block:hover{
-  transform: scale(1.02);
+.card:hover{
+    border:5px solid black;
 }
+.image-cards{
+    height:auto;
+    padding: 0%;
+}
+
+
+
+.card-text a{
+    text-decoration: none;
+    color:black;
+    padding-top: 0;
+    text-align: left;
+    margin: 0;
+
+}
+
+.card-text p{
+    text-decoration: none;
+    color:black;
+}
+.card-body{
+    background-color: #fff;
+    padding: 15px;
+    margin: 0;
+}
+
 .carousel-control-prev-icon,.carousel-control-next-icon{
-  outline: black;
-  background-color:black;
-  background-size: 100%, 100%;
-  border-radius: 50;
-}
-.carousel-caption {
-  color: white;
- }
+    outline: black;
+    background-color:black;
+    background-size: 100%, 100%;
+    border-radius: 50;
+  }
 
-.carousel-inner{
-  padding: 0 5%;
-}
-p{
-  padding:5% 5% 0 5%;
-  font-size: 1rem;
-  font-weight: bold;
-  display:inline-block;
-}
-p.names{
-  padding: 0;
-  font-size: 1rem;
-  font-weight: normal;
-  display:inline-block;
-}
-.editor{
-  padding: 0 5%;
-  border-radius: 100%;
-  width:30%;
-  height:auto;
-}
+  .content-links{
+    color:#181D31;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 15px;
+    width:90%;
+  }
 
+  .cards-h5{
+    text-align: center;
+    width:90%;
+    padding-top: 5px;
+  }
 
-ul{
-  text-align: center;
-  padding:10px 10px;
+.more{
+    padding-right: 0;
+    padding-bottom: 5px;
 }
-li{
-  display:inline-block;
-  text-decoration: none;
-  color:white;
-  padding:10px;
+.more-head{
+    text-align: left;
+    padding: 0 0 10px 40px;
+}
+  .img-more{
+    padding-left: 35px;
+    padding-right: 0;
 }
 
-li a{
-  text-decoration: none;
-  color:white;
-}
-li a:hover{
-  color:#181D31;
-}
-
-#cards{
-  padding:5% 5%;
-  text-align: center;
-}
-.card-cards{
-  padding-top:5px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 20px;
-  height:auto;
-
-}
-.card-img-top{
-  height:auto;
-  border-bottom:2px solid black;
-  border-top:2px solid black;
-}
-.card-text{
-  text-align: center;
-  padding-top:0px;
-}
-.welcome{
-  font-weight: 800;
-  font-family: serif;
-  padding-bottom: 5px;
-}
-.welcomes{
-  font-weight: 400;
-  font-family: serif;
-  padding-top: 5px;
-  padding-bottom: 5px;
+.insta-media{
+    padding-left: 75px;
+    display: block;
 }
 
 .footer{
-  background-color: #0082e6;
-  text-align: center;
-  margin-bottom: 0px;
-  padding:10px 5px;
-}
-.footer i{
-  padding:50px 10px 20px 10px;
-  size:50px;
-}
-
-.footer p{
-  padding:1px;
-  color:white;
-}
-.footer a{
-  text-decoration: none;
-  color:inherit;
-}
-
-.footer a:hover{
-  color:white;
-}
+    background-color: #0082e6;
+    text-align: center;
+    margin-bottom: 0px;
+    padding:10px 5px;
+  }
+  .footer i{
+    padding:50px 10px 20px 10px;
+    size:50px;
+  }
+  
+  .footer p{
+    padding:1px;
+    color:white;
+  }
+  .footer a{
+    text-decoration: none;
+    color:inherit;
+  }
+  
+  .footer a:hover{
+    color:white;
+  }
+  
