@@ -67,7 +67,7 @@ li a:hover{
 .cards-head{
   text-align: left;
   margin:0;
-  padding: 0 0 10px 25px;
+  padding: 5px 0 10px 25px;
 
 }
 
@@ -99,8 +99,9 @@ li a:hover{
   border:5px solid black;
 }
 .image-cards{
-  height:auto;
+  width:100%;
   padding: 0%;
+  height: auto;
 }
 
 
@@ -145,13 +146,19 @@ li a:hover{
   padding-top: 5px;
 }
 
+.timeline{
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top:10px;
+}
+
 .more{
   padding-right: 0;
   padding-bottom: 5px;
 }
 .more-head{
   text-align: left;
-  padding: 0 0 10px 40px;
+  padding: 5px 0 10px 40px;
 }
 .img-more{
   padding-left: 35px;
